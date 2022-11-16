@@ -1,28 +1,38 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'PIPI';
+}
+
+@font-face {
+    font-family: 'PIPI';
+    src: url("haettenschweiler_[fr.allfont.net].ttf");
+}
+
+#JORDAN {
+    font-family: 'PIPI';
+    font-size: 32px;
 }
 
 .header {
-    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     width: 100%;
     height: 10vh;
 }
 
-.container {
+.buttons {
+    font-family: 'PIPI';
+    margin-left: 8%;
+    width: 90%;
     display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-}
-
-.el {
-    scroll-snap-align: center;
-    flex: none;
-    width: 300px;
-    height: 100%;
-    margin: 0 20px;
+    flex-direction: row;
+    gap: 20%;
+    font-size: 24px;
 }
 
 html {
@@ -31,7 +41,20 @@ html {
     background: linear-gradient(49deg, rgba(151, 4, 161, 1) 0%, rgba(131, 21, 149, 1) 23%, rgba(179, 2, 33, 1) 72%);
 }
 
+.center {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+}
+
+.image {
+    filter: drop-shadow(30px 10px 20px black);
+}
+
 #logo-jrd {
     filter: invert(100%);
-    height: 90%;
+    height: 100%;
 }
