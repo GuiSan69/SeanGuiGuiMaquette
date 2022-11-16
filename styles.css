@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+head {
+    border: 4px solid blue;
+    height: 20vh;
+    background-color: black;
+}
 body {
     background: rgb(151,4,161);
-    background: linear-gradient(49deg, rgba(151,4,161,1) 0%, rgba(131,21,149,1) 31%, rgba(179,2,33,1) 72%);
+    background: linear-gradient(49deg, rgba(151,4,161,1) 0%, rgba(131,21,149,1) 23%, rgba(179,2,33,1) 72%);
     height: 100vh;
 }
