@@ -21,7 +21,7 @@
     scroll-snap-align: center;
     flex: none;
     width: 300px;
-    height: 300px;
+    height: 100%;
     margin: 0 20px;
 }
 
